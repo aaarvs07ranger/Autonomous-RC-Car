@@ -1,0 +1,14 @@
+| L298N Pin | Connects To                                         | Function                          |
+| --------- | --------------------------------------------------- | --------------------------------- |
+| IN1       | GPIO 17 (Pin 11)                                    | Left motor direction 1            |
+| IN2       | GPIO 27 (Pin 13)                                    | Left motor direction 2            |
+| IN3       | GPIO 22 (Pin 15)                                    | Right motor direction 1           |
+| IN4       | GPIO 23 (Pin 16)                                    | Right motor direction 2           |
+| ENA       | GPIO 18 (Pin 12, PWM)                               | Left motor speed (PWM)            |
+| ENB       | GPIO 13 (Pin 33, PWM)                               | Right motor speed (PWM)           |
+| GND       | Pi GND (any GND pin) & Battery –                    | Shared ground                     |
+| VCC       | Positive from battery pack                          | Motor power (9V from 2 batteries) |
+| 5V        | Leave disconnected (or jumper from L298N if needed) |                                   |
+
+- Use two 9V batteries in parallel to provide more current for both motors
+- Use L298N motor driver alongside breadboard for clean wire management
